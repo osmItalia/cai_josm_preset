@@ -44,7 +44,7 @@
                    values="000 su bandierina bianca e rossa, alcuni vecchi segnavia bianco e rosso, probabilmente non segnalato, non segnalato"
                    default="" delete_if_empty="true"
             />
-			<text key="operator" text="operator" default="Club Alpino Italiano" />
+			<text key="operator" text="operator" default="Società degli Alpinisti Tridentini" />
 			<text key="000" text="ascent" default="" />
 			<text key="000" text="descent" default="" />
 			<text key="00.0" text="distance" default="" />
@@ -87,7 +87,7 @@
 			<text key="ele" text="Elevation" default="" />
 			<text key="opening_hours" text="Opening_hours" default="" />
 			<text key="capacity" text="capacity" default="" />
-			<text key="operator" text="operator" default="Club Alpino Italiano" />
+			<text key="operator" text="operator" default="Società degli Alpinisti Tridentini" />
 			<check key="yes" text="winter_room" />
 			<check key="yes" text="drinking_water" />
 			<check key="yes" text="toilets" />
@@ -120,7 +120,7 @@
 			<text key="name" text="Name" default="" />
 			<text key="ele" text="Elevation" default="" />
 			<text key="capacity" text="capacity" default="" />
-			<text key="operator" text="operator" default="Club Alpino Italiano" />
+			<text key="operator" text="operator" default="Società degli Alpinisti Tridentini" />
 			<check key="yes" text="drinking_water" />
 			<check key="yes" text="toilets" />
 			<combo key="access" text="access" values="yes,private"
@@ -145,7 +145,7 @@
             <text key="name" text="name" default="" />
             <text key="ele" text="Elevation" />
             <text key="ref" text="Ref code" />
-            <text key="operator" text="Operator" default="Club Alpino Italiano" />
+            <text key="operator" text="Operator" default="Società degli Alpinisti Tridentini" />
             <check key="access_point" text="emergency" />
             <text key="ref:emergency" text="ref" default="" />
             <combo key="rwn:name" text="rwn:name"
