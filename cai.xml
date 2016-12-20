@@ -18,8 +18,8 @@
 			<key key="type" value="route" />
 			<key key="route" value="hiking" />
 
-			<combo key="network" text="network" values="lwn,rwn"
-                   display_values="lwn-local walking network, rwn-regional walking network"
+			<combo key="network" text="network" values="lwn,rwn,nwn,iwn"
+                   display_values="lwn-local walking network, rwn-regional walking network, nwn-national walking network, iwn-international walking network"
                    default="lwn"
             />
 			<text key="name" text="name" default="" />
@@ -28,9 +28,9 @@
                    display_values="T-Touristic, E-Normal Hickers, EE-Expert Hickers, EAA-Expert Hickers with Equiment, EAI-Expert Hickers with Snow Equiment"
                    default="" delete_if_empty="true"
             />
-			<check key="yes" text="roundtrip" />
+			<check key="roundtrip" text="roundtrip yes/no" />
 			<text key="source" text="source" default="survey:CAI" />
-			<text key="YYYY-MM-DD" text="survey:date" default="" />
+			<text key="survey:date" text="survey:date (YYYY-MM-DD)" default="" />
 			<combo key="osmc:symbol" text="osmc:symbol"
                    values="red:red:white_stripe:000:black"
                    default="red:red:white_stripe:000:black"
@@ -45,11 +45,11 @@
                    default="" delete_if_empty="true"
             />
 			<text key="operator" text="operator" default="Club Alpino Italiano" />
-			<text key="000" text="ascent" default="" />
-			<text key="000" text="descent" default="" />
-			<text key="00.0" text="distance" default="" />
-			<text key="00:00" text="duration:forward" default="" />
-			<text key="00:00" text="duration:backward" default="" />
+			<text key="ascent" text="ascent (000)" default="" />
+			<text key="descent" text="descent (000)" default="" />
+			<text key="distance" text="distance (00.0)" default="" />
+			<text key="duration:forward" text="duration-FW (00:00)" default="" />
+			<text key="duration:backward" text="duration-BW (00:00)" default="" />
 			<text key="from" text="from" default="" />
 			<text key="to" text="to" default="" />
 			<combo key="rwn:name" text="rwn:name"
@@ -88,9 +88,9 @@
 			<text key="opening_hours" text="Opening_hours" default="" />
 			<text key="capacity" text="capacity" default="" />
 			<text key="operator" text="operator" default="Club Alpino Italiano" />
-			<check key="yes" text="winter_room" />
-			<check key="yes" text="drinking_water" />
-			<check key="yes" text="toilets" />
+			<check key="winter_room" text="winter_room yes/no" />
+			<check key="drinking_water" text="drinking_water yes/no" />
+			<check key="toilets" text="toilets yes/no" />
 			<combo key="reservation" text="reservation"
                    values="yes,no,required,members_only"
                    display_values="yes, no, required, members_only"
@@ -100,6 +100,8 @@
                    display_values="yes, private"
                    delete_if_empty="true"
             />
+			<text key="description" text="description" default="" />
+			<text key="description:it" text="description:it" default="" />
 			<text key="wikipedia" text="wikipedia" default="" />
             <text key="wikidata" text="wikidata" default="" />
 			<text key="wikimedia_commons" text="wikimedia_commons" default="" />
@@ -121,11 +123,19 @@
 			<text key="ele" text="Elevation" default="" />
 			<text key="capacity" text="capacity" default="" />
 			<text key="operator" text="operator" default="Club Alpino Italiano" />
-			<check key="yes" text="drinking_water" />
-			<check key="yes" text="toilets" />
-			<combo key="access" text="access" values="yes,private"
-                   display_values="yes, private" delete_if_empty="true"
+			<check key="drinking_water" text="drinking_water yes/no" />
+			<check key="toilets" text="toilets yes/no" />
+			<combo key="reservation" text="reservation"
+                   values="yes,no,required,members_only"
+                   display_values="yes, no, required, members_only"
+                   delete_if_empty="true"
             />
+			<combo key="access" text="access" values="yes,private"
+                   display_values="yes, private"
+                   delete_if_empty="true"
+            />
+			<text key="description" text="description" default="" />
+			<text key="description:it" text="description:it" default="" />
             <text key="wikipedia" text="wikipedia" default="" />
             <text key="wikidata" text="wikidata" default="" />
 			<text key="wikimedia_commons" text="wikimedia_commons" default="" />
