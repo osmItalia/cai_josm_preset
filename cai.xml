@@ -24,8 +24,8 @@
             />
 			<text key="name" text="name" default="" />
 			<text key="ref" text="ref" default="" />
-			<combo key="cai_scale" text="cai_scale" values="T, E, EE, EAA, EAI"
-                   display_values="T-Touristic, E-Normal Hickers, EE-Expert Hickers, EAA-Expert Hickers with Equiment, EAI-Expert Hickers with Snow Equiment"
+			<combo key="cai_scale" text="cai_scale" values="T, E, EE, EEA, EAI"
+                   display_values="T-Touristic, E-Normal Hickers, EE-Expert Hickers, EEA-Expert Hickers with Equiment, EAI-Expert Hickers with Snow Equiment"
                    default="" delete_if_empty="true"
             />
 			<check key="roundtrip" text="roundtrip yes/no" />
