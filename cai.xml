@@ -77,6 +77,9 @@
                    delete_if_empty="true" />
             <text key="description" text="description" default="" />
             <text key="description:it" text="description:it" default="" />
+            <text key="website" text="website" />
+            <text key="email" text="email" />
+            <text key="phone" text="phone" />
             <text key="wikipedia" text="wikipedia" default="" />
             <text key="wikidata" text="wikidata" default="" />
             <text key="wikimedia_commons" text="wikimedia_commons" default="" />
@@ -107,6 +110,9 @@
                    delete_if_empty="true" />
             <text key="description" text="description" default="" />
             <text key="description:it" text="description:it" default="" />
+            <text key="website" text="website" />
+            <text key="email" text="email" />
+            <text key="phone" text="phone" />
             <text key="wikipedia" text="wikipedia" default="" />
             <text key="wikidata" text="wikidata" default="" />
             <text key="wikimedia_commons" text="wikimedia_commons" default="" />
