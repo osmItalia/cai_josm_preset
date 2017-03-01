@@ -4,109 +4,84 @@
          icon="cai_logo.png"
          it.description="Oggetti del Club Alpino Italiano (CAI)" it.shortdescription="Oggetti CAI">
 
-	<group name="Club Alpino Italiano (CAI)">
+    <group name="Club Alpino Italiano (CAI)">
 
         <item name="Club Alpino Italiano Hiking Relation"
               it.name="Relazione di un sentiero del Club Alpino Italiano"
               icon="presets/misc/route.svg" type="relation">
-
             <link href="http://wiki.openstreetmap.org/wiki/Hiking"
-                  it.href="http://wiki.openstreetmap.org/wiki/CAI" />
+                it.href="http://wiki.openstreetmap.org/wiki/CAI" />
             <label text="Edit Club Alpino Italiano relation"
-                   it.text="Modifica una relazione di un sentiero del Club Alpino Italiano" />
+                it.text="Modifica una relazione di un sentiero del Club Alpino Italiano" />
+            <key key="type" value="route" />
+            <key key="route" value="hiking" />
+            <combo key="network" text="network" values="lwn,rwn,nwn,iwn"
+                            display_values="lwn-local walking network, rwn-regional walking network, nwn-national walking network, iwn-international walking network"
+                            default="lwn" />
+            <text key="name" text="name" default="" />
+            <text key="ref" text="ref" default="" />
+            <combo key="cai_scale" text="cai_scale" values="T, E, EE, EEA, EAI"
+                            display_values="T-Touristic, E-Normal Hickers, EE-Expert Hickers, EEA-Expert Hickers with Equiment, EAI-Expert Hickers with Snow Equiment"
+                            default="" delete_if_empty="true" />
+            <check key="roundtrip" text="roundtrip yes/no" />
+            <text key="source" text="source" default="survey:CAI" />
+            <text key="survey:date" text="survey:date (YYYY-MM-DD)" default="" />
+            <combo key="osmc:symbol" text="osmc:symbol" values="red:red:white_stripe:000:black"
+                            default="red:red:white_stripe:000:black" delete_if_empty="true"/>
+            <combo key="symbol" text="symbol" default="" delete_if_empty="true"
+                            values="000 on white ref flag, some old white red flag, likely unmarked, unmarked"/>
+            <combo key="symbol:it" text="symbol:it" default="" delete_if_empty="true"
+                            values="000 su bandierina bianca e rossa, alcuni vecchi segnavia bianco e rosso, probabilmente non segnalato, non segnalato"/>
+            <text key="operator" text="operator" default="Club Alpino Italiano" />
+            <text key="ascent" text="ascent (000)" default="" />
+            <text key="descent" text="descent (000)" default="" />
+            <text key="distance" text="distance (00.0)" default="" />
+            <text key="duration:forward" text="duration-FW (00:00)" default="" />
+            <text key="duration:backward" text="duration-BW (00:00)" default="" />
+            <text key="from" text="from" default="" />
+            <text key="to" text="to" default="" />
+            <combo key="rwn:name" text="rwn:name" default="" delete_if_empty="true"
+                   values="Rete Escursionistica Ligure (REL), Rete Escursionistica Piemontese (RPE), Rete Escursionistica Emilia-Romagna (REER), Rete Escursionistica Toscana (RET)"/>
+            <text key="maintenance" text="maintenance" default="" />
+            <text key="maintenance:it" text="maintenance:it" default="" />
+            <combo key="state" text="state" values="closed, alternate, temporary"
+                   default="" delete_if_empty="true"/>
+            <text key="note" text="note" />
+            <text key="note:it" text="note:it" />
+            <text key="note:project_page" text="note:project_page" />
+            <text key="website" text="website" />
+            <text key="description" text="description" default="" />
+            <text key="description:it" text="description:it" default="" />
+        </item>
 
-			<key key="type" value="route" />
-			<key key="route" value="hiking" />
-
-			<combo key="network" text="network" values="lwn,rwn,nwn,iwn"
-                   display_values="lwn-local walking network, rwn-regional walking network, nwn-national walking network, iwn-international walking network"
-                   default="lwn"
-            />
-			<text key="name" text="name" default="" />
-			<text key="ref" text="ref" default="" />
-			<combo key="cai_scale" text="cai_scale" values="T, E, EE, EEA, EAI"
-                   display_values="T-Touristic, E-Normal Hickers, EE-Expert Hickers, EEA-Expert Hickers with Equiment, EAI-Expert Hickers with Snow Equiment"
-                   default="" delete_if_empty="true"
-            />
-			<check key="roundtrip" text="roundtrip yes/no" />
-			<text key="source" text="source" default="survey:CAI" />
-			<text key="survey:date" text="survey:date (YYYY-MM-DD)" default="" />
-			<combo key="osmc:symbol" text="osmc:symbol"
-                   values="red:red:white_stripe:000:black"
-                   default="red:red:white_stripe:000:black"
-                   delete_if_empty="true"
-            />
-			<combo key="symbol" text="symbol"
-                   values="000 on white ref flag, some old white red flag, likely unmarked, unmarked"
-                   default="" delete_if_empty="true"
-            />
-			<combo key="symbol:it" text="symbol:it"
-                   values="000 su bandierina bianca e rossa, alcuni vecchi segnavia bianco e rosso, probabilmente non segnalato, non segnalato"
-                   default="" delete_if_empty="true"
-            />
-			<text key="operator" text="operator" default="Club Alpino Italiano" />
-			<text key="ascent" text="ascent (000)" default="" />
-			<text key="descent" text="descent (000)" default="" />
-			<text key="distance" text="distance (00.0)" default="" />
-			<text key="duration:forward" text="duration-FW (00:00)" default="" />
-			<text key="duration:backward" text="duration-BW (00:00)" default="" />
-			<text key="from" text="from" default="" />
-			<text key="to" text="to" default="" />
-			<combo key="rwn:name" text="rwn:name"
-                   values="Rete Escursionistica Ligure (REL), Rete Escursionistica Piemontese (RPE), Rete Escursionistica Emilia-Romagna (REER), Rete Escursionistica Toscana (RET)"
-                   default="" delete_if_empty="true"
-            />
-			<text key="maintenance" text="maintenance" default="" />
-			<text key="maintenance:it" text="maintenance:it" default="" />
-			<combo key="state" text="state"
-                   values="closed, alternate, temporary"
-                   default="" delete_if_empty="true"
-            />
-			<text key="note" text="note" />
-			<text key="note:it" text="note:it" />
-			<text key="note:project_page" text="note:project_page" />
-			<text key="website" text="website" />
-			<text key="description" text="description" default="" />
-			<text key="description:it" text="description:it" default="" />
-		</item>
-
-		<item name="Club Alpino Italiano Hut" it.name="Rifugio del Club Alpino Italiano"
+        <item name="Club Alpino Italiano Hut" it.name="Rifugio del Club Alpino Italiano"
               icon="presets/accommodation/alpine_hut.svg" type="node,closedway,multipolygon">
 
             <link href="http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dalpine_hut" />
             <label text="Edit Club Alpino Italiano Hut"
                    it.text="Modifica un rifugio del Club Alpino Italiano" />
-
-			<key key="building" value="yes" />
-
-			<combo key="tourism" text="tourism"
-                   values="alpine_hut,wilderness_hut"
-                   display_values="alpine_hut,wilderness_hut"
-            />
-			<text key="name" text="Name" default="" />
-			<text key="ele" text="Elevation" default="" />
-			<text key="opening_hours" text="Opening_hours" default="" />
-			<text key="capacity" text="capacity" default="" />
-			<text key="operator" text="operator" default="Club Alpino Italiano" />
-			<check key="winter_room" text="winter_room yes/no" />
-			<check key="drinking_water" text="drinking_water yes/no" />
-			<check key="toilets" text="toilets yes/no" />
-			<combo key="reservation" text="reservation"
-                   values="yes,no,required,members_only"
-                   display_values="yes, no, required, members_only"
-                   delete_if_empty="true"
-            />
-			<combo key="access" text="access" values="yes,private"
-                   display_values="yes, private"
-                   delete_if_empty="true"
-            />
-			<text key="description" text="description" default="" />
-			<text key="description:it" text="description:it" default="" />
-			<text key="wikipedia" text="wikipedia" default="" />
+            <key key="building" value="yes" />
+            <combo key="tourism" text="tourism" values="alpine_hut,wilderness_hut"
+                   display_values="alpine_hut,wilderness_hut" />
+            <text key="name" text="Name" default="" />
+            <text key="ele" text="Elevation" default="" />
+            <text key="opening_hours" text="Opening_hours" default="" />
+            <text key="capacity" text="capacity" default="" />
+            <text key="operator" text="operator" default="Club Alpino Italiano" />
+            <check key="winter_room" text="winter_room yes/no" />
+            <check key="drinking_water" text="drinking_water yes/no" />
+            <check key="toilets" text="toilets yes/no" />
+            <combo key="reservation" text="reservation" values="yes,no,required,members_only"
+                   display_values="yes, no, required, members_only" delete_if_empty="true"/>
+            <combo key="access" text="access" values="yes,private" display_values="yes, private"
+                   delete_if_empty="true" />
+            <text key="description" text="description" default="" />
+            <text key="description:it" text="description:it" default="" />
+            <text key="wikipedia" text="wikipedia" default="" />
             <text key="wikidata" text="wikidata" default="" />
-			<text key="wikimedia_commons" text="wikimedia_commons" default="" />
-			<text key="mapillary" text="mapillary" default="" />
-		</item>
+            <text key="wikimedia_commons" text="wikimedia_commons" default="" />
+            <text key="mapillary" text="mapillary" default="" />
+        </item>
 
         <item name="Club Alpino Italiano Shelter" it.name="Bivacco del Club Alpino Italiano"
               icon="presets/accommodation/shelter.svg" type="node,closedway,multipolygon">
@@ -114,44 +89,38 @@
             <link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=shelter" />
             <label text="Edit Club Alpino Italiano Shelter"
                    it.text="Modifica un bivacco del Club Alpino Italiano" />
-
-			<key key="building" value="yes" />
-			<key key="amenity" value="shelter" />
+            <key key="building" value="yes" />
+            <key key="amenity" value="shelter" />
             <key key="shelter_type" value="basic" />
-
-			<text key="name" text="Name" default="" />
-			<text key="ele" text="Elevation" default="" />
-			<text key="capacity" text="capacity" default="" />
-			<text key="operator" text="operator" default="Club Alpino Italiano" />
-			<check key="drinking_water" text="drinking_water yes/no" />
-			<check key="toilets" text="toilets yes/no" />
-			<combo key="reservation" text="reservation"
+            <text key="name" text="Name" default="" />
+            <text key="ele" text="Elevation" default="" />
+            <text key="capacity" text="capacity" default="" />
+            <text key="operator" text="operator" default="Club Alpino Italiano" />
+            <check key="drinking_water" text="drinking_water yes/no" />
+            <check key="toilets" text="toilets yes/no" />
+            <combo key="reservation" text="reservation"
                    values="yes,no,required,members_only"
                    display_values="yes, no, required, members_only"
-                   delete_if_empty="true"
-            />
-			<combo key="access" text="access" values="yes,private"
+                   delete_if_empty="true" />
+            <combo key="access" text="access" values="yes,private"
                    display_values="yes, private"
-                   delete_if_empty="true"
-            />
-			<text key="description" text="description" default="" />
-			<text key="description:it" text="description:it" default="" />
+                   delete_if_empty="true" />
+            <text key="description" text="description" default="" />
+            <text key="description:it" text="description:it" default="" />
             <text key="wikipedia" text="wikipedia" default="" />
             <text key="wikidata" text="wikidata" default="" />
-			<text key="wikimedia_commons" text="wikimedia_commons" default="" />
-			<text key="mapillary" text="mapillary" default="" />
-		</item>
+            <text key="wikimedia_commons" text="wikimedia_commons" default="" />
+            <text key="mapillary" text="mapillary" default="" />
+        </item>
 
         <item name="Club Alpino Italiano Guidepost" it.name="Segnavia del Club Alpino Italiano"
-              icon="presets/misc/information/guidepost.svg" type="node">
+            icon="presets/misc/information/guidepost.svg" type="node">
             <link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=information" />
             <label text="Edit Club Alpino Italiano Guidepost"
                    it.text="Modifica un segnavia del Club Alpino Italiano" />
-
             <key key="tourism" value="information" />
             <key key="information" value="guidepost" />
             <key key="hiking" value="yes" />
-
             <text key="name" text="name" default="" />
             <text key="ele" text="Elevation" />
             <text key="ref" text="Ref code" />
@@ -160,13 +129,13 @@
             <text key="ref:emergency" text="ref" default="" />
             <combo key="rwn:name" text="rwn:name"
                    values="Rete Escursionistica Ligure (REL), Rete Escursionistica Piemontese (RPE), Rete Escursionistica Emilia-Romagna (REER), Rete Escursionistica Toscana (RET)"
-                   default="" delete_if_empty="true"
-            />
+                   default="" delete_if_empty="true" />
             <text key="destination" text="Destination" default=""  />
             <text key="location:it" text="location:it" default="" />
-			<text key="description:it" text="description:it" default="" />
+            <text key="description:it" text="description:it" default="" />
             <text key="wikimedia_commons" text="wikimedia_commons" default="" />
         </item>
-	</group>
+
+    </group>
 
 </presets>
