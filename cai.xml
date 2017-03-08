@@ -16,22 +16,22 @@
             <key key="type" value="route" />
             <key key="route" value="hiking" />
             <combo key="network" text="network" values="lwn,rwn,nwn,iwn"
-                            display_values="lwn-local walking network, rwn-regional walking network, nwn-national walking network, iwn-international walking network"
-                            default="lwn" />
+                   display_values="lwn-local walking network, rwn-regional walking network, nwn-national walking network, iwn-international walking network"
+                   default="lwn" />
             <text key="name" text="name" default="" />
             <text key="ref" text="ref" default="" />
             <combo key="cai_scale" text="cai_scale" values="T, E, EE, EEA, EAI"
-                            display_values="T-Touristic, E-Normal Hickers, EE-Expert Hickers, EEA-Expert Hickers with Equiment, EAI-Expert Hickers with Snow Equiment"
-                            default="" delete_if_empty="true" />
+                   display_values="T-Touristic, E-Normal Hickers, EE-Expert Hickers, EEA-Expert Hickers with Equiment, EAI-Expert Hickers with Snow Equiment"
+                   default="" delete_if_empty="true" />
             <check key="roundtrip" text="roundtrip yes/no" />
             <text key="source" text="source" default="survey:CAI" />
             <text key="survey:date" text="survey:date (YYYY-MM-DD)" default="" />
             <combo key="osmc:symbol" text="osmc:symbol" values="red:red:white_stripe:000:black"
-                            default="red:red:white_stripe:000:black" delete_if_empty="true"/>
+                   default="red:red:white_stripe:000:black" delete_if_empty="true"/>
             <combo key="symbol" text="symbol" default="" delete_if_empty="true"
-                            values="000 on white ref flag, some old white red flag, likely unmarked, unmarked"/>
+                   values="000 on white ref flag, some old white red flag, likely unmarked, unmarked"/>
             <combo key="symbol:it" text="symbol:it" default="" delete_if_empty="true"
-                            values="000 su bandierina bianca e rossa, alcuni vecchi segnavia bianco e rosso, probabilmente non segnalato, non segnalato"/>
+                   values="000 su bandierina bianca e rossa, alcuni vecchi segnavia bianco e rosso, probabilmente non segnalato, non segnalato"/>
             <text key="operator" text="operator" default="Club Alpino Italiano" />
             <text key="ascent" text="ascent (000)" default="" />
             <text key="descent" text="descent (000)" default="" />
@@ -41,12 +41,12 @@
             <text key="from" text="from" default="" />
             <text key="to" text="to" default="" />
             <combo key="rwn:name" text="rwn:name" default="" delete_if_empty="true"
-                            values="Rete Escursionistica Veneta (REV), Rete Escursionistica della Lombardia (REL), Rete Patrimonio Escursionistico=Piemonte (RPE), Rete Escursionistica Ligure (REL), Rete Escursionistica Emilia-Romagna (REER), Rete Escursionistica Toscana (RET), Rete Escursionistica Marche (RESM), Rete Escursionistica del Lazio (REL), Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA), Reti Escursionistiche della Puglia (REP), Rete Escursionistica Campana (REC)"/>                
+                   values="Rete Escursionistica Veneta (REV), Rete Escursionistica della Lombardia (REL), Rete Patrimonio Escursionistico=Piemonte (RPE), Rete Escursionistica Ligure (REL), Rete Escursionistica Emilia-Romagna (REER), Rete Escursionistica Toscana (RET), Rete Escursionistica Marche (RESM), Rete Escursionistica del Lazio (REL), Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA), Reti Escursionistiche della Puglia (REP), Rete Escursionistica Campana (REC)"/>                
             <text key="ref:REI" text="ref:REI" default="" />
             <text key="maintenance" text="maintenance" default="" />
             <text key="maintenance:it" text="maintenance:it" default="" />
             <combo key="state" text="state" values="closed, alternate, temporary"
-                            default="" delete_if_empty="true"/>
+                   default="" delete_if_empty="true"/>
             <text key="note" text="note" />
             <text key="note:it" text="note:it" />
             <text key="note:project_page" text="note:project_page" />
@@ -57,7 +57,6 @@
 
         <item name="Club Alpino Italiano Hut" it.name="Rifugio del Club Alpino Italiano"
               icon="presets/accommodation/alpine_hut.svg" type="node,closedway,multipolygon">
-
             <link href="http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dalpine_hut" />
             <label text="Edit Club Alpino Italiano Hut"
                    it.text="Modifica un rifugio del Club Alpino Italiano" />
@@ -89,7 +88,6 @@
 
         <item name="Club Alpino Italiano Shelter" it.name="Bivacco del Club Alpino Italiano"
               icon="presets/accommodation/shelter.svg" type="node,closedway,multipolygon">
-
             <link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=shelter" />
             <label text="Edit Club Alpino Italiano Shelter"
                    it.text="Modifica un bivacco del Club Alpino Italiano" />
@@ -121,7 +119,7 @@
         </item>
 
         <item name="Club Alpino Italiano Guidepost" it.name="Segnavia del Club Alpino Italiano"
-            icon="presets/misc/information/guidepost.svg" type="node">
+              icon="presets/misc/information/guidepost.svg" type="node">
             <link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=information" />
             <label text="Edit Club Alpino Italiano Guidepost"
                    it.text="Modifica un segnavia del Club Alpino Italiano" />
@@ -144,5 +142,4 @@
         </item>
 
     </group>
-
 </presets>
