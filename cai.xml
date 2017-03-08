@@ -41,11 +41,12 @@
             <text key="from" text="from" default="" />
             <text key="to" text="to" default="" />
             <combo key="rwn:name" text="rwn:name" default="" delete_if_empty="true"
-                   values="Rete Escursionistica Ligure (REL), Rete Escursionistica Piemontese (RPE), Rete Escursionistica Emilia-Romagna (REER), Rete Escursionistica Toscana (RET)"/>
+                            values="Rete Escursionistica Veneta (REV), Rete Escursionistica della Lombardia (REL), Rete Patrimonio Escursionistico=Piemonte (RPE), Rete Escursionistica Ligure (REL), Rete Escursionistica Emilia-Romagna (REER), Rete Escursionistica Toscana (RET), Rete Escursionistica Marche (RESM), Rete Escursionistica del Lazio (REL), Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA), Reti Escursionistiche della Puglia (REP), Rete Escursionistica Campana (REC)"/>                
+            <text key="ref:REI" text="ref:REI" default="" />
             <text key="maintenance" text="maintenance" default="" />
             <text key="maintenance:it" text="maintenance:it" default="" />
             <combo key="state" text="state" values="closed, alternate, temporary"
-                   default="" delete_if_empty="true"/>
+                            default="" delete_if_empty="true"/>
             <text key="note" text="note" />
             <text key="note:it" text="note:it" />
             <text key="note:project_page" text="note:project_page" />
