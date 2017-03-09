@@ -118,6 +118,14 @@
             <text key="mapillary" text="mapillary" default="" />
         </item>
 
+        <item name="Cairn" it.name="Ometti"
+              icon="presets/accommodation/shelter.svg" type="node">
+            <link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=cairn" />
+            <label text="Edit Cairn"
+                   it.text="Modifica un ometto" />
+            <key key="man_made" value="cairn" />
+        </item>
+
         <item name="Club Alpino Italiano Guidepost" it.name="Segnavia del Club Alpino Italiano"
               icon="presets/misc/information/guidepost.svg" type="node">
             <link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=information" />
@@ -139,6 +147,29 @@
             <text key="location:it" text="location:it" default="" />
             <text key="description:it" text="description:it" default="" />
             <text key="wikimedia_commons" text="wikimedia_commons" default="" />
+        </item>
+
+        <item name="Club Alpino Italiano Office" it.name="Sede del Club Alpino Italiano"
+              icon="presets/misc/information/guidepost.svg" type="node">
+            <link href="http://wiki.openstreetmap.org/wiki/Tag:office=association" />
+            <label text="Edit Club Alpino Italiano Office"
+                   it.text="Modifica una sede del Club Alpino Italiano" />
+            <key key="office" value="association" />
+            <text key="operator" text="Operator" default="Club Alpino Italiano" />
+            <text key="name" text="Club Alpino Italiano sezione di"  />
+            <text key="addr:street" value="Street" />
+            <text key="addr:housenumber" text="Number" />
+            <text key="addr:city" text="City" />
+            <text key="addr:postcode" text="Post code" />
+            <text key="opening_hours" text="Opening hours" />
+
+            <text key="phone" text="Phone" default=""  />
+            <text key="website" text="Website" default="" />
+            <text key="email" text="E-mail" default="" />
+            <text key="fax" text="fax" default="" />
+            <combo key="wheelchair" text="wheelchair" values="yes, no, limited"
+                   display_values="yes, no, limited"
+                   delete_if_empty="true" />
         </item>
 
     </group>
