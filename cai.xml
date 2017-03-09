@@ -155,8 +155,8 @@
             <label text="Edit Club Alpino Italiano Office"
                    it.text="Modifica una sede del Club Alpino Italiano" />
             <key key="office" value="association" />
-            <text key="operator" text="Operator" default="Club Alpino Italiano" />
-            <text key="name" text="Club Alpino Italiano sezione di"  />
+            <text key="operator" text="Operator" default="Società degli Alpinisti Tridentini" />
+            <text key="name" text="Società degli Alpinisti Tridentini sezione di"  />
             <text key="addr:street" value="Street" />
             <text key="addr:housenumber" text="Number" />
             <text key="addr:city" text="City" />
