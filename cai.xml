@@ -156,7 +156,7 @@
                    values_no_i18n="true" default="" delete_if_empty="true" />
             <text key="destination" text="Destination" default=""  />
             <text key="support" text="support" values="pole,tree,wall_mounted"
-                  display_values="pole,tree,wall_mounted",
+                  display_values="pole,tree,wall_mounted"
                   values_no_i18n="true" delete_if_empty="true" />
             <text key="description:it" text="description:it" default="" />
             <text key="wikimedia_commons" text="wikimedia_commons" default="" />
