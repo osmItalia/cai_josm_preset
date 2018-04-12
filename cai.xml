@@ -155,7 +155,7 @@
                    values="Rete Escursionistica Ligure (REL),Rete Escursionistica Piemontese (RPE),Rete Escursionistica Emilia-Romagna (REER),Rete Escursionistica Toscana (RET)"
                    values_no_i18n="true" default="" delete_if_empty="true" />
             <text key="destination" text="Destination" default=""  />
-            <text key="support" text="support" values="pole,tree,wall_mounted"
+            <combo key="support" text="support" values="pole,tree,wall_mounted"
                   display_values="pole,tree,wall_mounted"
                   values_no_i18n="true" delete_if_empty="true" />
             <text key="description:it" text="description:it" default="" />
