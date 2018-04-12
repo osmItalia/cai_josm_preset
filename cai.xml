@@ -50,7 +50,7 @@
             <text key="from" text="from" it.text="Luogo di partenza" default="" />
             <text key="to" text="to" it.text="Luogo di arrivo" default="" />
             <combo key="rwn:name" text="rwn:name" it.text="Nome della rete locale/regionale di appartenenza" default="" delete_if_empty="true" values_sort="false"
-                   values_no_i18n="true" values="Rete Escursionistica Veneta (REV),Rete Escursionistica della Lombardia (REL),Rete Patrimonio Escursionistico Piemonte (RPE),Rete Escursionistica Ligure (REL),Rete Escursionistica Emilia-Romagna (REER),Rete Escursionistica Toscana (RET),Rete Escursionistica Marche (RESM),Rete Escursionistica del Lazio (REL),Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA),Reti Escursionistiche della Puglia (REP),Rete Escursionistica Campana (REC),Rete Escursionistica Umbria (REU)" />
+                   values_no_i18n="true" values="Rete Escursionistica Veneta (REV),Rete Escursionistica della Lombardia (REL),Rete Patrimonio Escursionistico Piemonte (RPE),Rete Escursionistica Ligure (REL),Rete Escursionistica Emilia-Romagna (REER),Rete Escursionistica Toscana (RET),Rete Escursionistica Marche (RESM),Rete Escursionistica del Lazio (REL),Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA),Reti Escursionistiche della Puglia (REP),Rete Escursionistica Campana (REC),Rete Escursionistica Umbria (REU),Rete Escursionistica della Sardegna (RES)" />
             <text key="ref:REI" text="ref:REI" it.text="Codice nazionale REI (non CAI)" default="" />
             <text key="maintenance" text="Notes on maintenance" it.text="Note sulla manutenzione (testo inglese)" default="" />
             <text key="maintenance:it" text="Note sulla manutenzione" it.text="(testo italiano)" default="" />
@@ -152,7 +152,7 @@
             <check key="access_point" text="emergency" />
             <text key="ref:emergency" text="ref" default="" />
             <combo key="rwn:name" text="rwn:name"
-                   values="Rete Escursionistica Veneta (REV),Rete Escursionistica della Lombardia (REL),Rete Patrimonio Escursionistico Piemonte (RPE),Rete Escursionistica Ligure (REL),Rete Escursionistica Emilia-Romagna (REER),Rete Escursionistica Toscana (RET),Rete Escursionistica Marche (RESM),Rete Escursionistica del Lazio (REL),Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA),Reti Escursionistiche della Puglia (REP),Rete Escursionistica Campana (REC),Rete Escursionistica Umbria (REU)"
+                   values="Rete Escursionistica Veneta (REV),Rete Escursionistica della Lombardia (REL),Rete Patrimonio Escursionistico Piemonte (RPE),Rete Escursionistica Ligure (REL),Rete Escursionistica Emilia-Romagna (REER),Rete Escursionistica Toscana (RET),Rete Escursionistica Marche (RESM),Rete Escursionistica del Lazio (REL),Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA),Reti Escursionistiche della Puglia (REP),Rete Escursionistica Campana (REC),Rete Escursionistica Umbria (REU),Rete Escursionistica della Sardegna (RES)"
                    values_no_i18n="true" default="" delete_if_empty="true" />
             <text key="destination" text="Destination" default=""  />
             <combo key="support" text="support" values="pole,tree,wall_mounted"
