@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Alfredo Gattai, Luca Delucchi"
-         description="Club Alpino Italiano (CAI) objects" shortdescription="CAI objects"
-	 icon="https://github.com/osmItalia/cai_josm_preset/raw/master/cai_logo.png"
-	 it.description="Oggetti del Club Alpino Italiano (CAI)" it.shortdescription="Oggetti CAI"
-	 version="0.3.1">
+         description="Club Alpino Italiano (CAI)" shortdescription="CAI"
+	 it.description="Club Alpino Italiano (CAI)" it.shortdescription="CAI"
+	 version="0.4.0">
 
-    <group name="Club Alpino Italiano (CAI)">
+    <group name="Club Alpino Italiano (CAI)" icon="https://github.com/osmItalia/cai_josm_preset/raw/master/cai_logo.svg">
 
         <item name="Club Alpino Italiano Hiking Relation"
-              it.name="Relazione di un sentiero del Club Alpino Italiano"
+              it.name="Relazione di un percorso del Club Alpino Italiano"
               icon="presets/misc/route.svg" type="relation">
             <link href="http://wiki.openstreetmap.org/wiki/Hiking"
                 it.href="http://wiki.openstreetmap.org/wiki/CAI" />
             <label text="Edit a hiking route relation using convention by Club Alpino Italiano"
-                it.text="Modifica una relazione di un sentiero del Club Alpino Italiano" />
+                it.text="Modifica una relazione di un percorso del Club Alpino Italiano" />
             <key key="type" value="route" />
             <key key="route" value="hiking" />
             <combo key="network" text="network" it.text="Rete" values="lwn,rwn,nwn,iwn"
                    display_values="lwn-local walking network,rwn-regional walking network,nwn-national walking network,iwn-international walking network"
                    short_descriptions="local hiking route,regional hiking route,national hiking route,international hiking route"
-                   it.short_descriptions="la maggioranza dei sentieri che insistono su una zona,sentieri di lunga percorrenza che atttraversano piu’ province e/o mettono in collegamento piu’ sentieri ordinari,sentieri di importanza nazionale che attraversano piu’ regioni,sentieri di importanza internazionale che attraversano i confini nazionali"
+                   it.short_descriptions="la maggioranza dei percorsi che insistono su una zona,percorsi di lunga percorrenza che atttraversano piu’ province e/o mettono in collegamento piu’ percorsi ordinari,percorsi di importanza nazionale che attraversano piu’ regioni,percorsi di importanza internazionale che attraversano i confini nazionali"
                    values_no_i18n="true" default="lwn"  values_sort="false" />
             <text key="name" text="name" it.text="Nome in formato esteso" default="" />
-            <text key="ref" text="ref" it.text="Ref (numero o codice del sentiero)" default="" />
+            <text key="ref" text="ref" it.text="Ref (numero o codice del percorso)" default="" />
             <text key="old_ref" text="old_ref" it.text="Vecchio Ref (numero o codice non più utilizzato)" default="" />
             <combo key="cai_scale" text="cai_scale" it.text="Scala di difficoltà CAI" values="T,E,EE,EEA:F,EEA:PD,EEA:D,EEA:MD,EEA:E,EAI"
                    display_values="T,E,EE,EEA:F,EEA:PD,EEA:D,EEA:MD,EEA:E,EAI"
                    short_descriptions="Touristic hikers,Regular hikers,Expert hikers,Expert hikers with climbing equipment and moderate difficulty,Expert hikers with climbing equipment and medium difficulty,Expert hikers with climbing equipment and high difficulty,Expert hikers with climbing equipment and very high difficulty,Expert hikers with climbing equipment and extremely high difficulty,Expert hikers with snow equipment"
-                   it.short_descriptions="Sentiero turistico,Sentiero escursionistico,Sentiero per escursionisti esperti,Sentiero per escursionisti esperti con attrezzatura - Facile,Sentiero per escursionisti esperti con attrezzatura - Poco difficile,Sentiero per escursionisti esperti con attrezzatura - Difficile,Sentiero per escursionisti esperti con attrezzatura - Molto difficile,Sentiero per escursionisti esperti con attrezzatura - Estremo,Escursionismo in ambiente innevato"
+                   it.short_descriptions="Percorso turistico,Percorso escursionistico,Percorso per escursionisti esperti,Percorso per escursionisti esperti con attrezzatura - Facile,Percorso per escursionisti esperti con attrezzatura - Poco difficile,Percorso per escursionisti esperti con attrezzatura - Difficile,Percorso per escursionisti esperti con attrezzatura - Molto difficile,Percorso per escursionisti esperti con attrezzatura - Estremo,Escursionismo in ambiente innevato"
                    values_no_i18n="true" default="" delete_if_empty="true" values_sort="false" />
             <check key="roundtrip" text="roundtrip yes/no" it.text="Percorso circolare" />
             <combo key="source" text="source" it.text="Fonte informativa" values="survey:CAI,Provincia di...,Comune di...,local knowledge"
                    it.short_descriptions="Indagine del CAI,Provincia di...,Comune di...,Conoscenza locale"
                    values_no_i18n="true" default="survey:CAI" delete_if_empty="true" values_sort="false" />
+	    <text key="source:ref" text="CAI code of section checking the route" it.text="Codice CAI della sezione che controlla il percorso" default="" />
             <text key="survey:date" text="survey:date (YYYY-MM-DD)" it.text="Data del rilievo (AAAA-MM-GG)" default="" />
             <combo key="osmc:symbol" text="Hiking Path Symbols (osmc:symbol)" values="red:red:white_stripe:000:black"
                    display_values="red:red:white_stripe:000:black" it.text="Simboli dei segnavia del percorso (osmc:symbol)"
@@ -55,7 +55,7 @@
             <text key="ref:REI" text="ref:REI" it.text="Codice nazionale REI" default="" />
             <text key="maintenance" text="Notes on maintenance" it.text="Note sulla manutenzione (testo inglese)" default="" />
             <text key="maintenance:it" text="Note sulla manutenzione" it.text="(testo italiano)" default="" />
-            <combo key="state" text="state" it.text="Stato del sentiero" values="closed,alternate,temporary"
+            <combo key="state" text="state" it.text="Stato del percorso" values="closed,alternate,temporary"
                    short_descriptions="closed route,alternate route,temporary route"
                    it.short_descriptions="Percorso chiuso,Percorso alternativo,Percorso temporaneo"
                    values_no_i18n="true" values_sort="false" default="" delete_if_empty="true"/>
@@ -164,14 +164,14 @@
         </item>
 
         <item name="Club Alpino Italiano Office" it.name="Sede del Club Alpino Italiano"
-              icon="presets/misc/information/guidepost.svg" type="node">
+              icon="presets/office/association.svg" type="node,closedway,multipolygon" >
             <link href="http://wiki.openstreetmap.org/wiki/Tag:office=association" />
             <label text="Edit Club Alpino Italiano Office"
                    it.text="Modifica una sede del Club Alpino Italiano" />
             <key key="office" value="association" />
             <text key="operator" text="Operator" default="Club Alpino Italiano" />
-            <text key="name" text="Club Alpino Italiano sezione di"  />
-            <text key="addr:street" value="Street" />
+            <text key="name" text="Name" default="Club Alpino Italiano Sezione di" />
+            <text key="addr:street" text="Street" />
             <text key="addr:housenumber" text="Number" />
             <text key="addr:city" text="City" />
             <text key="addr:postcode" text="Post code" />
