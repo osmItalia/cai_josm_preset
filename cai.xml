@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Alfredo Gattai, Luca Delucchi"
          description="Club Alpino Italiano (CAI)" shortdescription="CAI"
 	 it.description="Club Alpino Italiano (CAI)" it.shortdescription="CAI"
-	 version="0.4.0">
+	 version="0.4.1">
 
     <group name="Club Alpino Italiano (CAI)" icon="https://github.com/osmItalia/cai_josm_preset/raw/master/cai_logo.svg">
 
@@ -89,6 +89,10 @@
                    values_no_i18n="true" delete_if_empty="true" />
             <text key="description" text="description" default="" />
             <text key="description:it" text="description:it" default="" />
+	    <combo key="source" text="source" it.text="Fonte informativa" values="survey:CAI,Provincia di...,Comune di...,local knowledge"
+                   it.short_descriptions="Indagine del CAI,Provincia di...,Comune di...,Conoscenza locale"
+                   values_no_i18n="true" default="survey:CAI" delete_if_empty="true" values_sort="false" />
+	    <text key="survey:date" text="survey:date (YYYY-MM-DD)" it.text="Data del rilievo (AAAA-MM-GG)" default="" />
             <text key="website" text="website" />
             <text key="email" text="email" />
             <text key="phone" text="phone" />
@@ -121,6 +125,10 @@
                    values_no_i18n="true" delete_if_empty="true" />
             <text key="description" text="description" default="" />
             <text key="description:it" text="description:it" default="" />
+	    <combo key="source" text="source" it.text="Fonte informativa" values="survey:CAI,Provincia di...,Comune di...,local knowledge"
+                   it.short_descriptions="Indagine del CAI,Provincia di...,Comune di...,Conoscenza locale"
+                   values_no_i18n="true" default="survey:CAI" delete_if_empty="true" values_sort="false" />
+	    <text key="survey:date" text="survey:date (YYYY-MM-DD)" it.text="Data del rilievo (AAAA-MM-GG)" default="" />
             <text key="website" text="website" />
             <text key="email" text="email" />
             <text key="phone" text="phone" />
@@ -160,6 +168,10 @@
                   display_values="pole,tree,wall_mounted"
                   values_no_i18n="true" delete_if_empty="true" />
             <text key="description:it" text="description:it" default="" />
+	    <combo key="source" text="source" it.text="Fonte informativa" values="survey:CAI,Provincia di...,Comune di...,local knowledge"
+                   it.short_descriptions="Indagine del CAI,Provincia di...,Comune di...,Conoscenza locale"
+                   values_no_i18n="true" default="survey:CAI" delete_if_empty="true" values_sort="false" />
+	    <text key="survey:date" text="survey:date (YYYY-MM-DD)" it.text="Data del rilievo (AAAA-MM-GG)" default="" />
             <text key="wikimedia_commons" text="wikimedia_commons" default="" />
         </item>
 
@@ -184,6 +196,10 @@
             <combo key="wheelchair" text="wheelchair" values="yes,no,limited"
                    display_values="yes,no,limited"
                    values_no_i18n="true" delete_if_empty="true" />
+	    <combo key="source" text="source" it.text="Fonte informativa" values="survey:CAI,Provincia di...,Comune di...,local knowledge"
+                   it.short_descriptions="Indagine del CAI,Provincia di...,Comune di...,Conoscenza locale"
+                   values_no_i18n="true" default="survey:CAI" delete_if_empty="true" values_sort="false" />
+	    <text key="survey:date" text="survey:date (YYYY-MM-DD)" it.text="Data del rilievo (AAAA-MM-GG)" default="" />
         </item>
 
     </group>
