@@ -9,8 +9,8 @@
         <item name="Club Alpino Italiano Hiking Relation"
               it.name="Relazione di un percorso del Club Alpino Italiano"
               icon="presets/misc/route.svg" type="relation">
-            <link href="http://wiki.openstreetmap.org/wiki/Hiking"
-                it.href="http://wiki.openstreetmap.org/wiki/CAI" />
+            <link href="https://wiki.openstreetmap.org/wiki/Hiking"
+                it.href="https://wiki.openstreetmap.org/wiki/CAI" />
             <label text="Edit a hiking route relation using convention by Club Alpino Italiano"
                 it.text="Modifica una relazione di un percorso del Club Alpino Italiano" />
             <key key="type" value="route" />
@@ -69,7 +69,7 @@
 
         <item name="Club Alpino Italiano Hut" it.name="Rifugio del Club Alpino Italiano"
               icon="presets/accommodation/alpine_hut.svg" type="node,closedway,multipolygon">
-            <link href="http://wiki.openstreetmap.org/wiki/Tag:tourism%3Dalpine_hut" />
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:tourism=alpine_hut" />
             <label text="Edit Club Alpino Italiano Hut"
                    it.text="Modifica un rifugio del Club Alpino Italiano" />
             <key key="building" value="yes" />
@@ -104,7 +104,7 @@
 
         <item name="Club Alpino Italiano Shelter" it.name="Bivacco del Club Alpino Italiano"
               icon="presets/accommodation/shelter.svg" type="node,closedway,multipolygon">
-            <link href="http://wiki.openstreetmap.org/wiki/Tag:amenity=shelter" />
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:amenity=shelter" />
             <label text="Edit Club Alpino Italiano Shelter"
                    it.text="Modifica un bivacco del Club Alpino Italiano" />
             <key key="building" value="yes" />
@@ -140,7 +140,7 @@
 
         <item name="Cairn" it.name="Ometti"
 		icon="https://github.com/osmItalia/cai_josm_preset/raw/master/cairn.svg" type="node">
-            <link href="http://wiki.openstreetmap.org/wiki/Tag:man_made=cairn" />
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:man_made=cairn" />
             <label text="Edit Cairn"
                    it.text="Modifica un ometto" />
             <key key="man_made" value="cairn" />
@@ -148,7 +148,7 @@
 
         <item name="Club Alpino Italiano Guidepost" it.name="Segnavia del Club Alpino Italiano"
               icon="presets/misc/information/guidepost.svg" type="node">
-            <link href="http://wiki.openstreetmap.org/wiki/Tag:tourism=information" />
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:tourism=information" />
             <label text="Edit Club Alpino Italiano Guidepost"
                    it.text="Modifica un segnavia del Club Alpino Italiano" />
             <key key="tourism" value="information" />
@@ -177,7 +177,7 @@
 
         <item name="Club Alpino Italiano Office" it.name="Sede del Club Alpino Italiano"
               icon="presets/office/association.svg" type="node,closedway,multipolygon" >
-            <link href="http://wiki.openstreetmap.org/wiki/Tag:office=association" />
+            <link href="https://wiki.openstreetmap.org/wiki/Tag:office=association" />
             <label text="Edit Club Alpino Italiano Office"
                    it.text="Modifica una sede del Club Alpino Italiano" />
             <key key="office" value="association" />
