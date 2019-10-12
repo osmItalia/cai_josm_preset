@@ -2,7 +2,7 @@
 <presets xmlns="http://josm.openstreetmap.de/tagging-preset-1.0" author="Alfredo Gattai, Luca Delucchi"
          description="Club Alpino Italiano (CAI)" shortdescription="CAI"
 	 it.description="Club Alpino Italiano (CAI)" it.shortdescription="CAI"
-	 version="0.4.1">
+	 version="0.4.2">
 
     <group name="Club Alpino Italiano (CAI)" icon="https://github.com/osmItalia/cai_josm_preset/raw/master/cai_logo.svg">
 
