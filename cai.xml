@@ -154,12 +154,12 @@
             <key key="tourism" value="information" />
             <key key="information" value="guidepost" />
             <key key="hiking" value="yes" />
-            <key key="mtb" text="Mountain bike"/>
             <text key="name" text="name" default="" />
             <text key="ele" text="Elevation" />
             <text key="ref" text="Ref code" />
             <text key="operator" text="Operator" default="Club Alpino Italiano" />
-            <check key="access_point" text="emergency" />
+	    <check key="mtb" text="Mountain bike" />
+	    <check key="access_point" text="emergency" />
             <text key="ref:emergency" text="ref" default="" />
             <combo key="rwn:name" text="rwn:name"
                    values="Rete Escursionistica Veneta (REV),Rete Escursionistica della Lombardia (REL),Rete Patrimonio Escursionistico Piemonte (RPE),Rete Escursionistica Ligure (REL),Rete Escursionistica Emilia-Romagna (REER),Rete Escursionistica Toscana (RET),Rete Escursionistica Marche (RESM),Rete Escursionistica del Lazio (REL),Rete Escursionistica Alpinistica Speleologica e Torrentistica Abruzzo (REASTA),Reti Escursionistiche della Puglia (REP),Rete Escursionistica Campana (REC),Rete Escursionistica Umbria (REU),Rete Escursionistica della Sardegna (RES)"
