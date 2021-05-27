@@ -154,6 +154,7 @@
             <key key="tourism" value="information" />
             <key key="information" value="guidepost" />
             <key key="hiking" value="yes" />
+            <key key="mtb" text="Mountain bike"/>
             <text key="name" text="name" default="" />
             <text key="ele" text="Elevation" />
             <text key="ref" text="Ref code" />
